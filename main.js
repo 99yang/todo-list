@@ -6,7 +6,7 @@ function onClickInputButton(elem) {
     <input
       type="checkbox"
       class="checkbox"
-     
+      onclick="onClickCheckbox(this)"
     />
     <span>${inputBoxValue}</span>
     <img
@@ -30,4 +30,15 @@ function enterKey() {
 
 function onClickDeleteButton(deleteElem) {
   deleteElem.parentElement.remove();
+}
+
+function onClickCheckbox(checkboxElem) {
+  const liElem = checkboxElem.parentElement;
+  const spanElem = liElem.querySelector("span");
+  if (checkboxElem.checked) {
+    // <s><s> = 텍스트에 줄긋기
+    spanElem.innerHTML = `<s>${spanElem.innerText}<s>`;
+  } else {
+    spanElem.innerHTML = `${spanElem.innerText}`;
+  }
 }
