@@ -77,3 +77,18 @@ li > span {
 li > img {
   background-color: white;
 }
+
+/* For 768px screen width */
+@media screen and (max-width: 768px) {
+  .to-do-list {
+    width: 80%;
+  }
+
+  #input-box {
+    font-size: medium;
+  }
+
+  #input-button {
+    font-size: 1.5em;
+  }
+}
