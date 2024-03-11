@@ -5,10 +5,10 @@ HTML, CSS, Javascript
 
 ## 메뉴 구성
 html
-header와 main으로 나누어 표현하기
-휴지통 이미지 삽입
-id, class 목적에 맞게 사용하기
-onclick 사용하여 Dom구현하기
+1. header와 main으로 나누어 표현하기
+2. 휴지통 이미지 삽입
+3. id, class 목적에 맞게 사용하기
+4. onclick 사용하여 Dom구현하기
 
 ## Features
 javascript
